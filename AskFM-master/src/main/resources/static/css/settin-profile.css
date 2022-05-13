@@ -1,0 +1,189 @@
+*{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+	background-color: #2A3545
+}
+/* --------------------------------------Start Main Rulez--------------------------------------------*/
+.container{   width: 1170px;  margin: auto;}
+.clear{clear: both} 
+.h3{font-size: 25px; font-weight: bold; display: inline-block; margin: 20px }
+/*----------------------------------------------End Main Rulez-----------------------------------------*/
+/*---------------------------------------------Start navbar--------------------------------------------*/
+.navgbar {
+	background-color: #ffffff;
+	color: #F16541;   
+	box-shadow:0 2px 2px rgba(0,0,0,0.3);
+	width: 100%;
+	margin-bottom: 50px;
+	
+}
+.navgbar img {float: left;  margin: 15px auto;  width: 95px; height: 25px}
+
+.navgbar ul {
+    list-style: none;
+    padding:15px 0px;
+  
+    float:right;
+    
+  }
+.navgbar ul > li {float: left; padding:  0 10px 10px 20px ; } 
+.navgbar ul > li > a {color: #F16541;   text-decoration: none; padding-bottom: 20px}
+.navgbar ul > li.active > a,
+.navgbar ul > li:hover > a { color:#000; border-bottom: 4px solid #F16541; cursor: pointer;}
+.navgbar ul > li span{ color: #FFF;
+	background: #E0000B ;
+	border-radius: 50%; 
+	padding: 3px;  
+	position: relative; 
+	top :-8px; 
+	left: -2px 
+}
+.navgbar .menu{ position: relative; }
+.navgbar .menu:hover .sub-menu {
+	display: block;
+}
+.navgbar .menu .sub-menu {
+	list-style: none;
+ 	position: absolute; 
+ 	color: #F00; 
+ 	top:30px; 
+ 	left: -7px;
+	background: #FFF;
+	padding-bottom: 2px;
+	-webkit-box-shadow: 0 1px 1px rgba(0 , 0, 0, 0.5);
+	display: none;
+ }
+ .navgbar .menu .sub-menu li{ padding-right: 20px }
+  .navgbar .menu .sub-menu li:hover a {color: #000; cursor: pointer; border: none;}
+ .navgbar .menu .sub-menu:before{
+ 	content: "";
+ 	width:0; 
+ 	height:0; 
+ 	border-left: 6px solid transparent;
+ 	border-right: 6px solid transparent;
+ 	border-bottom: 6px solid #F00;
+ 	position: absolute;
+ 	top:-6px;
+ 	left: 30px
+ }
+/*---------------------------------------------End navbar--------------------------------------------*/
+/*---------------------------------------------Start Main-setting--------------------------------------------*/
+.container2{
+	background: #FFF ;
+    width: 850px ;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.main-choice{
+	text-align: center;
+}
+.main-choice ul{list-style-type: none;}
+.main-choice ul li {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	color: #B4B4B4;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+
+.main-choice .activee{
+	border-bottom: 2px solid #F16541 !important;
+	color: #000
+}
+
+/* info      */
+
+.Main .info{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.Main .info h4{
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+.info input,textarea {
+	width: 90%;
+	display: block;
+	color: #333;
+	height: 33px;
+	line-height: 1.5em
+}
+.info textarea{
+height: 80px
+} 
+.info span {
+	color: #b4b4b4;
+}
+.info .disapled{
+	background-color: #f2f3f7; 
+	}
+.info .info-email{
+	color: #ff907b;
+	text-decoration: none;
+	cursor: pointer;	
+}
+.info select{
+	font-size: 16px;
+    background: #fff;
+    padding: 10px 5px;
+    border: 1px solid #edeef2;
+    width: 31%;
+    margin-right: 1%
+}
+.info .hr{
+	width: 103.6%;
+	height: 5px;
+	background-color: #edeef2;
+	margin-left: -30px;
+	margin-top: 15px
+}
+
+.info .check{
+	margin-top: 30px;
+	height: 30px
+	
+}
+
+.check a {
+	text-decoration: none;
+}
+.check input{
+	height: 20px;
+	background-color: #ff6647;
+	color: #FFF;
+	float: right;
+	margin-top: -20px;
+	
+}
+
+.check span{
+	
+	color: #FF6648;
+	float: left;
+}
+
+.photos img {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+.btn{
+	margin-top: 20px;
+	
+	padding: 5px 35px
+}
+
+/***************** Acount ****************/
+.setting-account a { 
+	display: block; 
+	text-decoration: none;
+	padding: 10px  ;
+	border-bottom: 2px solid #DDD ;
+
+
+}

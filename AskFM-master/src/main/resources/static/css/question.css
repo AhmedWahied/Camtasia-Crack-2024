@@ -1,0 +1,185 @@
+*{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+	background-color: #2A3545
+}
+/* --------------------------------------Start Main Rulez--------------------------------------------*/
+.container{   width: 1170px;  margin: auto;}
+.clear{clear: both} 
+.h3{font-size: 25px; font-weight: bold; display: inline-block; margin: 20px }
+/*----------------------------------------------End Main Rulez-----------------------------------------*/
+/*---------------------------------------------Start navbar--------------------------------------------*/
+.navgbar {
+	background-color: #ffffff;
+	color: #F16541;   
+	box-shadow:0 2px 2px rgba(0,0,0,0.3);
+	width: 100%;
+	margin-bottom: 50px;
+	
+}
+.navgbar img {float: left;  margin: 15px auto;  width: 95px; height: 25px}
+
+.navgbar ul {
+    list-style: none;
+    padding:15px 0px;
+  
+    float:right;
+    
+  }
+.navgbar ul > li {float: left; padding:  0 10px 10px 20px ; } 
+.navgbar ul > li > a {color: #F16541;   text-decoration: none; padding-bottom: 20px}
+.navgbar ul > li.active > a,
+.navgbar ul > li:hover > a { color:#000; border-bottom: 4px solid #F16541; cursor: pointer;}
+.navgbar ul > li span{ color: #FFF;
+	background: #E0000B ;
+	border-radius: 50%; 
+	padding: 3px;  
+	position: relative; 
+	top :-8px; 
+	left: -2px 
+}
+.navgbar .menu{ position: relative; }
+.navgbar .menu:hover .sub-menu {
+	display: block;
+}
+.navgbar .menu .sub-menu {
+	list-style: none;
+ 	position: absolute; 
+ 	color: #F00; 
+ 	top:30px; 
+ 	left: -7px;
+	background: #FFF;
+	padding-bottom: 2px;
+	-webkit-box-shadow: 0 1px 1px rgba(0 , 0, 0, 0.5);
+	display: none;
+ }
+ .navgbar .menu .sub-menu li{ padding-right: 20px }
+  .navgbar .menu .sub-menu li:hover a {color: #000; cursor: pointer; border: none;}
+ .navgbar .menu .sub-menu:before{
+ 	content: "";
+ 	width:0; 
+ 	height:0; 
+ 	border-left: 6px solid transparent;
+ 	border-right: 6px solid transparent;
+ 	border-bottom: 6px solid #F00;
+ 	position: absolute;
+ 	top:-6px;
+ 	left: 30px
+ }
+/*---------------------------------------------End navbar--------------------------------------------*/
+/*---------------------------------------------Start post--------------------------------------------*/
+.post {background-color: #FFF}
+.post section {border-top: 10px solid #EDEEF2;  }
+.post   .num {background-color: #CACACA ; border-radius: 50%; color: #FFF; padding: 0 5px}
+.post .question a:hover{
+	cursor: pointer;
+}
+.post .question a:nth-of-type(2){
+	background-color: #DADADF;
+	color: #4A4A4A;
+	padding: 10px 40px;
+	border-radius: 5px;
+	margin-left: 20px
+}
+.post .question a:nth-of-type(3){
+	background-color: #4080D8;
+	color: #FFF;
+	padding: 10px 40px;
+	border-radius: 5px;
+	margin-left: 20px
+}
+.post .question p {font-size: 20px}
+.question_answer p  {margin-left: 20px; color: #CACACA; display: inline-block;}
+.question_answer .answer_btn{
+	float: right;
+	background: none;
+	border: 2px solid #DADADF;
+	border-radius: 20px ;
+	color: #FF643C;
+	margin-top: 20px;
+	padding: 5px 20px;
+	transition: all 0.5s ease-in-out
+}
+.question_answer .answer_btn:hover{
+	background: #FF643C;
+	color: #FFF;
+
+}
+.fa.fa-times.delete{
+	float: right;
+	font-size: 20px;
+	margin: 10px;
+}
+/*---------------------------------------------Start ask-------------------------------------------*/
+.ask{background-color: #FFFFED; margin-bottom: 20px}
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 150px
+}
+input[type="checkbox"] {
+	margin-bottom:  20px;
+}
+.ask .btn{
+	background-color: #FF643C;
+	border: none;
+	float: right;
+	height: 30px;
+	color: #FFF;
+	border-radius: 10px;
+	line-height: 15px
+}
+
+.scrollbar
+{
+	
+	float: left;
+	height: 300px;
+	width: 100%;
+	background: #fff;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
+.ask.friends .btn{
+	margin-top: 10px;
+	background: none;
+	color:#FF643C;
+	border: 1px solid #C0C0C0;
+	transition: all 0.5s ease-in-out;
+}
+.ask.friends .btn:hover{
+	background: #FF643C;
+	color:#FFf;
+}
+.ask.friends {background: #FFF}
+.ask.friends .account {float: left;  margin-bottom: 10px ; border-top: 1px solid #000; padding-top: 5px}
+.ask.friends .account img{width: 20%; height: 20%; border-radius: 50%}
+
+
+/*---------------------------------------------Start ask-------------------------------------------*/
+
+/*=========================================================================================*/
+/* Start Media Query */
+@media (max-width: 767px) { /* Mobile & Tablet Rules */
+   
+}
+@media (min-width: 768px) and (max-width: 991px) { /* Small Screen Rules */
+   
+}
+@media (min-width: 992px) and (max-width: 1199px) { /* Medium Screen Rules */
+   
+}
+@media (min-width: 1200px) { /* Large Screen Rules */
+   
+}
+/* End Media Query */

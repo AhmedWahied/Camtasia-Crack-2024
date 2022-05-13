@@ -1,0 +1,107 @@
+*{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+	background-color: #2A3545
+}
+/* --------------------------------------Start Main Rulez--------------------------------------------*/
+.container{     margin: auto;}
+.clear{clear: both} 
+
+.h3{font-size: 25px; font-weight: bold; display: inline-block; margin: 20px }
+/*----------------------------------------------End Main Rulez-----------------------------------------*/
+
+
+/* nav-homebar */ 
+.nav-home{
+	background-color: #ffffff;
+	text-align: center;
+}
+.nav-home img {float: left; width: 33.3333%}
+.nav-home ul {list-style-type: none;}
+.nav-home ul li {
+	display: inline-block; 
+	float: right; 
+	width: 33.33333%; 
+	cursor: pointer; 
+	color: #FF6648 ; 
+	padding: 10px 0; 
+	font-size: 18px
+}
+.nav-home ul li:hover{color: #FFF; background: #FF6648; border-radius: 3px;  }
+.nav-home .select-home { color: #000; font-weight: bold ; float: left;}
+.nav-home .logo {
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	margin-top: 7px;
+
+	}
+.nav-home .login a {
+	text-decoration: none;
+	color:#FF6648;
+}
+
+form {
+
+
+	margin: 10px auto;	
+
+}
+.color{
+	width: 900px;
+	margin: auto;	
+	background-color: #ffffff
+	
+}
+.container2{
+	
+	padding-top: 40px;
+	padding-bottom:  40px;
+	margin: auto;
+	width: 500px;
+
+}
+input {
+
+	  padding: 7px;
+	  width: 100%;	
+	  margin-bottom: 15px;
+}
+select {
+	font-size: 16px;
+    background: #fff;
+    padding: 10px 5px;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    
+}
+.Gender{
+	width: 80%;
+	margin-bottom: 10px
+}
+.Language{
+	width: 80%;
+	margin-bottom: 10px
+}
+
+input[type="checkbox"]{float: left; width: 5%}
+.container2 a {
+	color:#FF6648; 
+	text-decoration: none;
+}
+.login a { float: right; }
+.container2 .btn {
+	width: 100%;
+	background-color: #FF6648;
+	color: #ffffff;
+	padding: 10px;
+	border: none;
+	font-weight: bold;
+	margin: 15px 0;
+	border-radius: 5px
+
+}

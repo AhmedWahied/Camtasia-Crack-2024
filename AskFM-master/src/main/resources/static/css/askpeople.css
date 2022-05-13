@@ -1,0 +1,64 @@
+*{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+	background-color: rgba(255,100,60,0.8);
+}
+/* --------------------------------------Start Main Rulez--------------------------------------------*/
+.container{   width: 1170px;  margin: auto;}
+.clear{clear: both} 
+.h3{font-size: 25px; font-weight: bold; display: inline-block; margin: 20px }
+/*----------------------------------------------End Main Rulez-----------------------------------------*/
+
+/*---------------------------------------------Start askPeople-------------------------------------------*/
+
+.ask_people {
+	position: absolute;
+	top :5%;  
+	left: 20% ;
+	background: #FFF;
+	width: 800px;
+	padding: 20px;
+	border-radius: 25px;
+}
+.ask_people textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 150px ;
+    border: 1px dashed #DDD;
+    border-radius: 10px
+}
+.ask_people button{
+	background-color: #FF643C;
+	border: none;
+	float: right;
+	height: 30px;
+	color: #FFF;
+	border-radius: 10px
+}
+.ask_people input[type="search"]{
+	width: 100%;
+	padding: 10px 0 10px 10px
+}
+.scrollbar
+{
+	
+	float: left;
+	height: 300px;
+	width: 100%;
+	background: #fff;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
+.ask_people .friends{ border: 2px solid #DDD; padding: 20px; margin: 20px 0 }
+.ask_people .friends .account {float: left; width: 33.333333%; margin-bottom: 10px }
+.ask_people .friends .account img{width: 25%; height: 25%; border-radius: 50%}

@@ -1,0 +1,202 @@
+*{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+	background-color: #2A3545
+}
+/* --------------------------------------Start Main Rulez--------------------------------------------*/
+.container{   width: 1170px;  margin: auto;}
+.clear{clear: both} 
+.h3{font-size: 25px; font-weight: bold; display: inline-block; margin: 20px }
+/*----------------------------------------------End Main Rulez-----------------------------------------*/
+/*---------------------------------------------Start navbar--------------------------------------------*/
+.navgbar {
+	background-color: #ffffff;
+	color: #F16541;   
+	box-shadow:0 2px 2px rgba(0,0,0,0.3);
+	width: 100%;
+	margin-bottom: 50px;
+	
+}
+.navgbar img {float: left;  margin: 15px auto;  width: 95px; height: 25px}
+
+.navgbar ul {
+    list-style: none;
+    padding:15px 0px;
+  
+    float:right;
+    
+  }
+.navgbar ul > li {float: left; padding:  0 10px 10px 20px ; } 
+.navgbar ul > li > a {color: #F16541;   text-decoration: none; padding-bottom: 20px}
+.navgbar ul > li.active > a,
+.navgbar ul > li:hover > a { color:#000; border-bottom: 4px solid #F16541; cursor: pointer;}
+.navgbar ul > li span{ color: #FFF;
+	background: #E0000B ;
+	border-radius: 50%; 
+	padding: 3px;  
+	position: relative; 
+	top :-8px; 
+	left: -2px 
+}
+.navgbar .menu{ position: relative; }
+.navgbar .menu:hover .sub-menu {
+	display: block;
+}
+.navgbar .menu .sub-menu {
+	list-style: none;
+ 	position: absolute; 
+ 	color: #F00; 
+ 	top:30px; 
+ 	left: -7px;
+	background: #FFF;
+	padding-bottom: 2px;
+	-webkit-box-shadow: 0 1px 1px rgba(0 , 0, 0, 0.5);
+	display: none;
+ }
+ .navgbar .menu .sub-menu li{ padding-right: 20px }
+  .navgbar .menu .sub-menu li:hover a {color: #000; cursor: pointer; border: none;}
+ .navgbar .menu .sub-menu:before{
+ 	content: "";
+ 	width:0; 
+ 	height:0; 
+ 	border-left: 6px solid transparent;
+ 	border-right: 6px solid transparent;
+ 	border-bottom: 6px solid #F00;
+ 	position: absolute;
+ 	top:-6px;
+ 	left: 30px
+ }
+/*---------------------------------------------End navbar--------------------------------------------*/
+
+/*---------------------------------------------Start post--------------------------------------------*/
+.post {background-color: #FFF}
+.post section {border-top: 10px solid #EDEEF2;  }
+.post section:hover{background-color: #F2F3F7}
+.post .question a {color: #4080D8; display: inline-block;}
+.post .answer img {
+	float: left;
+	width: 8%;
+	border-radius: 50%;
+	margin:  2%
+}
+.post .answer p {width: 80%; display: inline-block; margin-bottom: 20px }
+.post .answer  span{display: block; margin: 20px; color: #C0C0C0;}
+.post footer{
+	height: 20px;
+	background-color: #ffffff;
+	padding: 10px;
+	border-top:  2px solid #EDEEF2
+}
+.post footer i {
+	margin: 1% 7%;
+	color: #c0c0c0;
+}
+.post footer i:hover{
+	  cursor: pointer;
+}
+.post footer i:active {color: #FF643C}
+.post footer i span {padding-left: 5px}
+.post footer .one {
+  float: left;
+  width: 80%;
+}
+.post footer .two {
+  float: right;
+  width: 10%;
+}
+/*---------------------------------------------End post-------------------------------------------*/
+/*---------------------------------------------Start ask-------------------------------------------*/
+.ask{background-color: #FFFFED; margin-bottom: 20px}
+.ask textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 150px
+}
+input[type="checkbox"] {
+	margin-bottom:  20px;
+}
+.ask .btn{
+	background-color: #FF643C;
+	border: none;
+	float: right;
+	height: 30px;
+	color: #FFF;
+	border-radius: 10px;
+	line-height: 15px
+}
+
+.tags{padding: 20px 10px;}
+.tags a {padding: 7px; }
+.scrollbar
+{
+	
+	float: left;
+	height: 300px;
+	width: 100%;
+	background: #fff;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
+.ask.friends .btn{
+	margin-top: 10px;
+	background: none;
+	color:#FF643C;
+	border: 1px solid #C0C0C0;
+	transition: all 0.5s ease-in-out;
+}
+.ask.friends .btn:hover{
+	background: #FF643C;
+	color:#FFf;
+}
+.ask.friends {background: #FFF}
+.ask.friends .account {float: left;  margin-bottom: 10px ; border-top: 1px solid #000; padding-top: 5px}
+.ask.friends .account img{width: 20%; height: 20%; border-radius: 50%}
+
+/*---------------------------------------------End ask-------------------------------------------*/
+/*---------------------------------------------Start Chat-------------------------------------------*/
+.chat{
+	padding: 1px ; 
+	border-radius: 10px 10px 0 0 ;
+	background-color: #FF643C;
+	width: 15%;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 10px;
+	cursor: pointer;
+}
+.chat h5{
+	font-weight: bold;
+}
+.chat .followers{ background: #FFF; padding: 1px ; display: none; }
+.chat .account { margin-bottom: 10px }
+.chat .account img{width: 25%; height: 25%; border-radius: 50%}
+.chat .account:hover{background: #ed7a5d}
+/*---------------------------------------------End Chat-------------------------------------------*/
+
+
+/*=========================================================================================*/
+/* Start Media Query */
+@media (max-width: 767px) { /* Mobile & Tablet Rules */
+   
+}
+@media (min-width: 768px) and (max-width: 991px) { /* Small Screen Rules */
+   
+}
+@media (min-width: 992px) and (max-width: 1199px) { /* Medium Screen Rules */
+   
+}
+@media (min-width: 1200px) { /* Large Screen Rules */
+   
+}
+/* End Media Query */
